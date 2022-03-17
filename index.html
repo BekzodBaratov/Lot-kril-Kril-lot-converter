@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        font-family: sans-serif;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: lightseagreen;
+      }
+      .container {
+        border: 5px solid gold;
+        width: 80%;
+        height: 85vh;
+        margin-top: 5vh;
+        margin-left: 10%;
+        border-radius: 3px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      textarea {
+        display: block;
+        width: 100%;
+        border: 0;
+        background-color: rgba(255, 255, 255, 0.685);
+        height: 32%;
+        outline: none;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 3px;
+      }
+      .kiruvchi {
+        margin-bottom: 2%;
+      }
+      .header {
+        text-align: center;
+        color: #333;
+        text-transform: uppercase;
+        padding-bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="header">Kril-lotin, Lotin-kril KONVERTER</h2>
+    <div class="container">
+      <textarea
+        class="kiruvchi1 kiruvchi"
+        name="text"
+        id="kiruvchi"
+        cols="30"
+        rows="10"
+        placeholder="Lotin"
+      ></textarea>
+      <textarea
+        class="kiruvchi2 kiruvchi"
+        name="text"
+        id="chiquvchi"
+        cols="30"
+        rows="10"
+        placeholder="Крил"
+      ></textarea>
+      <hr />
+      <textarea
+        class="kiruvchi3 kiruvchi"
+        name="text"
+        id="chiquvchi"
+        cols="30"
+        rows="10"
+        placeholder="Крил"
+      ></textarea>
+      <textarea
+        class="kiruvchi4 kiruvchi"
+        name="text"
+        id="chiquvchi"
+        cols="30"
+        rows="10"
+        placeholder="Lotin"
+      ></textarea>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
